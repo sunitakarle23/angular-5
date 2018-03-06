@@ -1,0 +1,17 @@
+{
+  "name": "news",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js' --directory --port 3080 "
+  },
+  "author": "sunita",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.4.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13"
+  }
+}
